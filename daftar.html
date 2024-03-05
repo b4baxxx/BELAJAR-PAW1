@@ -6,36 +6,43 @@
     <title>Document</title>
 </head>
 <body>
+    <hr>
     <h1>Universitas MDP</h1>
     <hr>
-    <a href="index.html">Home</a>
-    <hr> 
-    <h2>Pendaftaran Mahasiswa Baru </h2>
-    <!-- form -->
-    <form action="proses.php" method="post"
-    Nama calon Mahasiswa <br />
-    <input type="text" name="name"
-    id="nama" required /> <br />
+    <a href="index.html"> Home</a>
+    <hr>
+    <h2>Pendaftaran Mahasiswa Baru</h2>
 
-    Tanggal lahir <cbr />
-    <input type="date" name="tgl_lahir"
-    id="tgl_lahir" required /> <br />
+    <!-- FORM -->
+    <form action="proses.php" method="post">
+        Nama Calon Mahasiswa <br>
+        <input type="text" name="nama" id="nama" required /> <br />
 
-    jenis kelamin <cbr />
-    <input type="radio" name="jk"
-    id="jkl"> Laki laki
-    <br />
-    <input type="radio" name="jk"
-    value="P" id="jkp" /> perempuan <br />
+        Tanggal lahir <br />
+        <input type="date" name="tgl_lahir" id="tgl_lahir"> <br />
 
-    jalur penerimaan <br />
-    <select name="jp" id="jp">
-        <option value="JTT"Jalur Tanpa
-        tes</option>
-        <option value="JT">Jalur Test</
-            option>
-            <option value="JB" Jalur Beasiswa</
-            option>
+        Jenis Kelamin <br />
+        <input type="radio" name="JK" id="JKL" value="L"  checked /> Laki Laki <br />
+        <input type="radio" name="JK" id="JKP" value="P" /> Perempuan <br />
+
+        Jalur Penerimaan <br />
+        <select name="JP" id="JP">
+            <option value="JTT">Jalur Tanpa Tes</option> 
+            <option value="JT">Jalur Tes</option>
+            <option value="Jb">Jalur Beasiswa</option>
+        </select> <br />
+
+        Masukan Password <br />
+        <input type="password" name="ppp" id="ppp"> <br />
+    <br>
+        <button type="submit">Simpan</button>
+
+    </form>
+<style>
+    body{
+        background-color: chocolate;
+    }
+</style>
 
 </body>
 </html>

@@ -1,2 +1,2 @@
-# BELAJAR-PAW1
-Repositori Mata Kuliah Pengembangan Aplikasi Web I
+# Aplikasi24
+repository Pengembang aplikasi web I
