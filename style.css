@@ -3,30 +3,30 @@ body {
     background-color: rgb(4, 0, 255);
     font-family: Times New Roman;
 }
-/* class selector */
-.text-primary {
-    color: blue;
-}
-.col {
-    width: 25%;
-    float: left;
-}
-.img-responsive {
-    border-radius: 300px;
-    width: 100px;
-}
-
+/* media query */
+/* table ; layout yang ditampilkan 2 kolom*/
 @media screen and (min-width: 600px){
     body{
         background-color: darkolivegreen;
     }
-
+    .col {
+    width: 25%;
+    float: left;
+    }
     .col-sm-6{
         width: 25%;
         float: left;
     }
-
+    .col-sm-12{
+        width: 50%;
+        float: left;
+    }
+    .col-sm-5{
+        width: 33.33%;
+        float: left;
+    }
 }
+
 
 /* desktop : layout yang ditampilkan 4 kolom */
 @media screen and (min-width: 992px) {
