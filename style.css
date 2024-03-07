@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 /* element selector */
 body {
     background-color: rgb(4, 0, 255);
@@ -14,18 +17,18 @@ body {
     float: left;
     }
     .col-sm-6{
-        width: 25%;
-        float: left;
-    }
-    .col-sm-12{
         width: 50%;
         float: left;
     }
-    .col-sm-5{
+    .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-5 {
         width: 33.33%;
         float: left;
     }
-}
+} 
 
 
 /* desktop : layout yang ditampilkan 4 kolom */
@@ -37,5 +40,40 @@ body {
         width: 25%;
         float: left;
     }
+    .col-lg-3{
+        width: 50%;
+        float: left;
+
+    }
+    .col-sm-6{                   
+        width: 50%;
+        float: left;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+    }
 }
- 
+/* class selector */
+.text-promary {
+    color: blue;
+}
+
+.img-responsive{
+    width: 100%;
+    max-height: 500px;
+}
+.circle{
+    border-radius: 50%;
+}
+.rounded{
+    border-radius: 50%;
+}
+.p-1{
+    padding: 10%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
